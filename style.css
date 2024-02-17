@@ -86,3 +86,9 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+img {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* This maintains aspect ratio */
+}
+
