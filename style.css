@@ -55,7 +55,7 @@ body {
 
 .catagory .catagory img {
     max-width: 300px; /* Adjusted width for all images */
-    height: auto; /* This maintains aspect ratio */
+    height: 300px; /* This maintains aspect ratio */
     margin-bottom: 20px;
 }
 
