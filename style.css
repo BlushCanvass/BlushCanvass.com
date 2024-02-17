@@ -53,7 +53,7 @@ body {
     transform: translateY(-5px); /* Move up slightly on hover */
 }
 
-.catagory .img {
+.catagory .catagory img {
     max-width: 300px; /* Adjusted width for all images */
     height: 300px; /* This maintains aspect ratio */
     margin-bottom: 20px;
