@@ -1,5 +1,4 @@
-/* Reset default browser styles */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,8 +53,7 @@ body {
 }
 
 .catagory .catagory img {
-    max-width: 300px; /* Adjusted width for all images */
-    height: auto; /* This maintains aspect ratio */
+    max-width: 100%;
     margin-bottom: 20px;
 }
 
@@ -86,4 +84,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+img {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* This maintains aspect ratio */
 }
