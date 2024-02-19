@@ -79,6 +79,10 @@ body {
 .catagory .catagory a:hover {
     background-color: #555;
 }
+.catagory .catagory a img {
+  width: 300px; 
+    height: 300px;
+}
 
 footer {
     background-color: #333;
