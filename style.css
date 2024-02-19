@@ -87,7 +87,7 @@ footer {
     padding: 20px 0;
 }
 
-.catagory .container img {
+.container .catagory img {
     width: 300px; /* Adjust width as needed */
     height: 300px; /* This maintains aspect ratio */
 }
