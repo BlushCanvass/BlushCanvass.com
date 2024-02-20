@@ -1,4 +1,5 @@
- {
+/* Reset default browser styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +14,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px; /* Add padding */
 }
 
 .catagory {
@@ -23,51 +24,48 @@ body {
 
 .catagory h2 {
     font-size: 58px;
-    margin-bottom: 100px;
+    margin-bottom: 20px; /* Reduce margin */
     background-color: #ffbbcc; /* Light pink background for heading */
     color: #000000; /* Black text color */
-    padding: 80px 80px; /* Add padding for heading */
+    padding: 40px 20px; /* Adjust padding */
     border-radius: 10px; /* Rounded corners */
     font-family: "Kaushan Script", cursive;
-       /* Apply Mission Script font */
 }
 
 .catagory .container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line */
     justify-content: center; /* Horizontally center the container */
- 
 }
 
 .catagory .catagory {
-    width: 400px; /* Increased width for larger categories */
-    margin: 20px; /* Adjust margin for spacing between categories */
-    padding: 40px; /* Increased padding for better spacing */
-    background-color: #ffbbcc; /* Light purple background for categories */
-    border: 2px solid #ffbbcc; /* Border color */
-    border-radius: 15px; /* Rounded corners */
-    transition: transform 0.3s ease; /* Smooth transition effect */
+    width: calc(50% - 40px); /* Adjust width and margin */
+    margin: 20px;
+    padding: 20px; /* Adjust padding */
+    background-color: #ffbbcc;
+    border: 2px solid #ffbbcc;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
 .catagory .catagory:hover {
-    transform: translateY(-5px); /* Move up slightly on hover */
+    transform: translateY(-5px);
 }
 
 .catagory .catagory img {
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduce margin */
 }
 
 .catagory .catagory h3 {
     font-size: 24px;
-    font-stretch: 90px;
     margin-bottom: 10px;
-    color: #000000; /* Pink color for category headings */
+    color: #000000;
 }
 
 .catagory .catagory a {
     display: inline-block;
-    background-color: #ffffff; /* Pink background for links */
+    background-color: #ffffff;
     color: #000000;
     text-decoration: none;
     padding: 10px 20px;
@@ -79,10 +77,6 @@ body {
 .catagory .catagory a:hover {
     background-color: #555;
 }
-.catagory .catagory a img {
-  width: 300px; 
-    height: 300px;
-}
 
 footer {
     background-color: #333;
@@ -91,7 +85,9 @@ footer {
     padding: 20px 0;
 }
 
-.container .catagory img {
-    width: 300px; /* Adjust width as needed */
-    height: 300px; /* This maintains aspect ratio */
+/* Adjustments for responsive layout */
+@media (max-width: 768px) {
+    .catagory .catagory {
+        width: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
 }
