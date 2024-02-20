@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 
-.catagory h1 {
+.catagory .catagory h1 {
      font-size: 58px;
     margin-bottom: 20px; /* Reduce margin */
     background-color: #ffbbcc; /* Light pink background for heading */
