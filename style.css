@@ -23,7 +23,7 @@ body {
 }
 
 .catagory h2 {
-    font-size: 58px;
+    font-size: 30px;
     margin-bottom: 20px;
     background-color: #ffbbcc;
     color: #000000;
@@ -58,7 +58,7 @@ body {
 }
 
 .catagory .catagory h3 {
-    font-size: 24px;
+    font-size: 12px;
     margin-bottom: 10px;
     color: #000000;
 }
