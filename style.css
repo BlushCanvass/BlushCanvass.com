@@ -85,6 +85,10 @@ footer {
     padding: 20px 0;
 }
 
+.catagory img {
+    maxwidth:300px
+        maxlength:300px
+}
 /* Adjustments for responsive layout */
 @media (max-width: 1000px) {
     .catagory .catagory {
