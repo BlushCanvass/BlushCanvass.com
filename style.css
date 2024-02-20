@@ -22,6 +22,15 @@ body {
     text-align: center;
 }
 
+.catagory h1 {
+     font-size: 58px;
+    margin-bottom: 20px; /* Reduce margin */
+    background-color: #ffbbcc; /* Light pink background for heading */
+    color: #000000; /* Black text color */
+    padding: 40px 20px; /* Adjust padding */
+    border-radius: 10px; /* Rounded corners */
+    font-family: "Kaushan Script", cursive;
+}
 .catagory h2 {
     font-size: 58px;
     margin-bottom: 20px; /* Reduce margin */
