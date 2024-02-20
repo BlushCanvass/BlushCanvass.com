@@ -7,14 +7,14 @@
 
 /* Global styles */
 body {
-    font-family: 'Pacifico', cursive; /* Fixed font-family value */
-    background-color: #ffffff; /* Light background color */
+    font-family: 'Pacifico', cursive;
+    background-color: #ffffff;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px; /* Add padding */
+    padding: 20px;
 }
 
 .catagory {
@@ -22,35 +22,26 @@ body {
     text-align: center;
 }
 
-.catagory .catagory h1 {
-     font-size: 58px;
-    margin-bottom: 20px; /* Reduce margin */
-    background-color: #ffbbcc; /* Light pink background for heading */
-    color: #000000; /* Black text color */
-    padding: 40px 20px; /* Adjust padding */
-    border-radius: 10px; /* Rounded corners */
-    font-family: "Kaushan Script", cursive;
-}
 .catagory h2 {
     font-size: 58px;
-    margin-bottom: 20px; /* Reduce margin */
-    background-color: #ffbbcc; /* Light pink background for heading */
-    color: #000000; /* Black text color */
-    padding: 40px 20px; /* Adjust padding */
-    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+    background-color: #ffbbcc;
+    color: #000000;
+    padding: 40px 20px;
+    border-radius: 10px;
     font-family: "Kaushan Script", cursive;
 }
 
 .catagory .container {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: center; /* Horizontally center the container */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .catagory .catagory {
-    width: calc(50% - 40px); /* Adjust width and margin */
+    width: calc(50% - 40px);
     margin: 20px;
-    padding: 20px; /* Adjust padding */
+    padding: 20px;
     background-color: #ffbbcc;
     border: 2px solid #ffbbcc;
     border-radius: 15px;
@@ -63,7 +54,7 @@ body {
 
 .catagory .catagory img {
     max-width: 100%;
-    margin-bottom: 10px; /* Reduce margin */
+    margin-bottom: 10px;
 }
 
 .catagory .catagory h3 {
@@ -96,8 +87,8 @@ footer {
 
 /* Adjustments for responsive layout */
 @media (max-width: 768px) {
-    .pink-box {
-        width: 100%; /* Adjust the width for smaller screens */
-        padding: 20px; /* Adjust padding for smaller screens */
+    .catagory .catagory {
+        width: calc(50% - 40px);
     }
 }
+
