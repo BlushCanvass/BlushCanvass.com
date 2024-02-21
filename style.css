@@ -42,8 +42,8 @@ body {
     width: calc(50% - 40px);
     margin: 20px;
     padding: 20px;
-    background-color: #ffbbcc;
-    border: 2px solid #ffbbcc;
+    background-color: #FFE0E9;
+    border: 2px solid #FFE0E9;
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
