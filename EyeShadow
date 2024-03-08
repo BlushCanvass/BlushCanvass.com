@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Featured Products</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<heading>
+
+</heading>
+
+
+<section class="catagory">
+<h2>Blush Canvass EyeShadow!!</h2>
+
+
+    <div class="container">
+        <div class="catagory">
+            <a href="https://amzn.to/43ccQjN">
+                <img src="https://m.media-amazon.com/images/I/61SWjLCijsL._SX679_.jpg"  alt="Contour Product 1">
+                <h3>NYX Ultimate Shadow Palette</h3>
+            </a>
+        </div>
+
+
+        <div class="catagory">
+            <a href="https://amzn.to/49LyxK2">
+                <img src="https://m.media-amazon.com/images/I/81yqc88khES._SX522_.jpg" alt="Contour Product 2">
+                <h3>Urban Decay Naked2 Basics Eyeshadow Palette</h3>
+            </a>
+        </div>
+
+
+
+        <div class="catagory">
+            <a href="https://amzn.to/49AJ4I1">
+                <img src="https://m.media-amazon.com/images/I/81QmgNj4t9L._SX522_.jpg" alt="Contour Product 3">
+                <h3>LORAC PRO Palette</h3>
+            </a>
+        </div>
+
+
+
+        <div class="catagory">
+            <a href="https://amzn.to/3IrVwhg">
+                <img src="https://m.media-amazon.com/images/I/31RuZ8VYGHL._SY300_SX300_QL70_FMwebp_.jpg" alt="Contour Product 4">
+                <h3>L.A. Girl Beauty Brick Eyeshadow</h3>
+            </a>
+        </div>
+
+
+
+        <div class="catagory">
+            <a href="index.html">
+               
+                <h3>Back To Catagories</h3>
+                
+            </a>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
