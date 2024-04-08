@@ -1,27 +1,22 @@
-/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Global styles */
 body {
     font-family: 'Pacifico', cursive; /* Fixed font-family value */
     background-color: #ffffff; /* Light background color */
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 .catagory {
     padding: 40px 0;
     text-align: center;
 }
-
 .catagory h2 {
     font-size: 58px;
     margin-bottom: 100px;
@@ -33,15 +28,13 @@ body {
     border-style: solid;
        /* Apply Mission Script font */
 }
-
 .catagory .container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line */
     justify-content: center; /* Horizontally center the container */
 }
-
 .catagory .catagory {
-   width: 400px; /* Increased width for larger categories */
+    width: 400px; /* Increased width for larger categories */
     margin: 20px; /* Adjust margin for spacing between categories */
     padding: 40px; /* Increased padding for better spacing */
     background-color: #FFE0E9; /* Light purple background for categories */
@@ -49,17 +42,14 @@ body {
     transition: transform 0.3s ease; /* Smooth transition effect */
     border-style: solid;
 }
-
 .catagory .catagory:hover {
     transform: translateY(-5px); /* Move up slightly on hover */
 }
-
 .catagory .catagory img {
     max-width: 100%;
     margin-bottom: 20px;
     max-height:200px
 }
-
 .catagory .catagory h3 {
     font-size: 24px;
     font-stretch: 90px;
@@ -78,11 +68,9 @@ body {
     font-family: "Kaushan Script", cursive;
 }
 
-
 .catagory .catagory a:hover {
     background-color: #555;
 }
-
 footer {
     background-color: #333;
     color: #fff;
