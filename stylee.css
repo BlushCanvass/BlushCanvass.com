@@ -41,13 +41,14 @@ body {
 }
 
 .catagory .catagory {
-    width: 400px; /* Increased width for larger categories */
-    margin: 20px; /* Adjust margin for spacing between categories */
-    padding: 40px; /* Increased padding for better spacing */
-    background-color: #FFE0E9; /* Light purple background for categories */
-    border-radius: 15px; /* Rounded corners */
-    transition: transform 0.3s ease; /* Smooth transition effect */
-    border-style: solid;
+   display: inline-block;
+    background-color: #ffffff; /* Pink background for links */
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: "Kaushan Script", cursive;
 }
 
 .catagory .catagory:hover {
