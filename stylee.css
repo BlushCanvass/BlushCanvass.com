@@ -45,9 +45,9 @@ body {
     margin: 20px; /* Adjust margin for spacing between categories */
     padding: 40px; /* Increased padding for better spacing */
     background-color: #FFE0E9; /* Light purple background for categories */
-    border: 2px solid #000000; /* Border color */
     border-radius: 15px; /* Rounded corners */
     transition: transform 0.3s ease; /* Smooth transition effect */
+    border-style: solid;
 }
 
 .catagory .catagory:hover {
